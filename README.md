@@ -20,7 +20,7 @@ Implement a search mechanism to find a string pattern in the document. Return a 
 
 - **SearchEngine():** Created a SearchEngine instance. Initialized data structures for pattern search.
 - **void insert_sentence(int book_code, int page, int paragraph, int sentence_no, string s):** Pre-process the sentence for search queries.
-- **Node* search(string pattern, int &n_matches):** Given a pattern, create a linked list of nodes containing match data. Return the head of the linked list and update the match count.
+- **Node search(string pattern, int &n_matches):** Given a pattern, create a linked list of nodes containing match data. Return the head of the linked list and update the match count.
 - **~SearchEngine():** Destroy the SearchEngine instance.
 
 
